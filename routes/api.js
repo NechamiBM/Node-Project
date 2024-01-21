@@ -1,12 +1,12 @@
 const express = require('express');
 const route = express.Router();
 
-const bay = require('./bay');
+const buy = require('./buy');
 const user = require('./user');
 const recipe = require('./recipe');
 const category = require('./category');
 
-route.use('/bay', bay);
+route.use('/buy', buy);
 route.use('/user', user);
 route.use('/recipe', recipe)
 route.use('/category', category)

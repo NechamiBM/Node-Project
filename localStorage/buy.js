@@ -2,7 +2,7 @@
 var LocalStorage = require('node-localstorage').LocalStorage;
 localStorage = new LocalStorage('./scratch');
 
-const bay = [
+const buy = [
     {
         "Id": 1,
         "Name": "במבה",
@@ -28,6 +28,6 @@ const bay = [
         "Count": 5
     }
 ]
-localStorage.setItem('bay',JSON.stringify(bay));
+localStorage.setItem('buy',JSON.stringify(buy));
 
-module.exports = bay;
+module.exports = buy;

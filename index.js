@@ -8,8 +8,7 @@ app.use(express.json());
 
 const port = 8080;
 
-app.use(cors())
-
+app.use(cors());
 
 app.use('/api',api)
 
